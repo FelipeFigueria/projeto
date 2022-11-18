@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="C:/projeto/css/style.css">
+
+</head>
+<body>
+
+<header>
+
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>LANCHE DA EDINORA</a>
+
+    <nav class="navbar">
+        <a class="ativo" href="#inicio">início</a>
+        <a href="#pratos">Pratos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#comentarios">Comentários</a>
+        <a href="#pedido">Pedido</a>
+    </nav>
+
+    <div class="icones">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+
+<form action="" id="search-form">
+    <input type="search" placeholder="procure aqui" name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<section class="inicio" id="inicio">
+
+    <div class="swiper-container home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="conteudo">
+                    <span>Pratos Especiais</span>
+                    <h3>Macarronada Picante</h3>
+                    <p>Quem deseja se aventurar com temperos mais forte temos esse delicioso prato de macarronada</p>
+                    <a href="#" class="btn">peça agora</a>
+                </div>
+                <div class="image">
+                    <img src="C:\projeto\images\macarronada.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="conteudo">
+                    <span>PRATOS ESPECIAIS</span>
+                    <h3>Frango Assado</h3>
+                    <p>Se você busca um prato para família este saboroso frango irá atender os seus desejos.</p>
+                    <a href="#" class="btn">peça agora</a>
+                </div>
+                <div class="image">
+                    <img src="C:\projeto\images\frango.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="conteudo">
+                    <span>PRATOS ESPECIAIS</span>
+                    <h3>Pizza</h3>
+                    <p>Uma pizza de dar água na boca está à sua espera.</p>
+                    <a href="#" class="btn">Peça agora</a>
+                </div>
+                <div class="image">
+                    <img src="C:\projeto\images\pizza.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="pratos" id="pratos">
+
+    <h3 class="sub-heading"> QUERIDINHOS DA EDINORA </h3>
+    <h1 class="heading"> Lanches mais pedidos </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <img src="C:\projeto\images\agua-de-coco.png" alt="">
+            <h3>Água de coco - 350ml</h3>
+            <div class="estrela">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>R$5.00</span>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <img src="C:\projeto\images\empadao-de-carne.png" alt="">
+            <h3>Empadão de carne</h3>
+            <div class="estrela">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>R$6.00</span>
+            <a href="#" class="btn">Adicionar ao carinho</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <img src="C:\projeto\images\bolo.png" alt="">
+            <h3>Bolo de Chocolate</h3>
+            <div class="estrela">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>R$6.00</span>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <img src="C:\projeto\images\empadao.png" alt="">
+            <h3>Empadão de Frango</h3>
+            <div class="estrela">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>R$6.00</span>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="sobre" id="sobre">
+
+    <h3 class="sub-heading"> Sobre nós </h3>
+    <h1 class="heading"> POR QUE NOS ESCOLHER? </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="C:\projeto\images\tacaca.png" alt="">
+        </div>
+
+        <div class="conteudo">
+            <h3>Saúde e barriga cheia...</h3>
+            <p>Pensando na saúde e bem-estar de nossos clientes e algo novo para surpreende-los optamos por lanche assados para inovar e surpreender o seu paladar. </p>
+            <p>Sobre a nossa magnifica mestre cuca: ela é uma excelentíssima chef,
+                 com mais de 10 anos de experiência no ramo de comida, além de uma mãe incrivel.</p>
+            <div class="icones-container">
+                <div class="icones">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>Entrega grátis</span>
+                </div>
+                <div class="icones">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>Facilidade no pagamento</span>
+                </div>
+                <div class="icones">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 fale-conosco</span>
+                </div>
+            </div>
+            <a href="#" class="btn">Leia mais. . .</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="cardapio" id="cardapio">
+
+    <h3 class="sub-heading"> Cardárpio </h3>
+    <h1 class="heading"> Lanches do dia </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="C:\projeto\images\pudim.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="conteudo">
+                <div class="estrela">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Fatia de Pudim</h3>
+                <p>Delicioso pudim para aqueles que adoram uma mistura de leve doçura com leite.</p>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <span class="preco">R$5.00</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="C:\projeto\images\kikao.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="conteudo">
+                <div class="estrela">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Kikão</h3>
+                <p>Kikão bem recheado e com um delicioso molho, o preferido da criançada.</p>
+                <a href="#" class="btn">adicionar ao carrinho</a>
+                <span class="preco">R$5.00</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="C:\projeto\images\brigadeirao.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="conteudo">
+                <div class="estrela">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Fatia de Brigadeirão</h3>
+                <p>Para aqueles que prefrem uma doçura mais forte, o brigadeirão é a escolha ideal</p>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <span class="preco">R$5.00</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="C:\projeto\images\empadinha.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="conteudo">
+                <div class="estrela">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Empadinha de Frango</h3>
+                <p>Para quem deseja uma massa mais consistente,
+                     essa é uma boa escolha.</p>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <span class="preco">R$4.00</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="C:\projeto\images\empadinha-camarao.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="conteudo">
+                <div class="estrela">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Empadinha de Camarão</h3>
+                <p>Favorito de quem busca um lanche rápido, porém, com sabor regional e delicioso.</p>
+                <a href="#" class="btn">Adicionar a ocarrinho</a>
+                <span class="preco">R$4.50</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="C:\projeto\images\sopa.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="conteudo">
+                <div class="estrela">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Sopa</h3>
+                <p>Uma deliciosa sopa quente para quem deseja se aquecer.</p>
+                <a href="#" class="btn">Adicionar a ocarrinho</a>
+                <span class="preco">R$14.00</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="C:\projeto\images\torta-de-banana.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="conteudo">
+                <div class="estrela">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Torta de Banana</h3>
+                <p>Quem busca uma massa mais cremosa irá adorar saborear a nossa torta de banana.</p>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <span class="preco">R$6.00</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="C:\projeto\images\bebidas.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="conteudo">
+                <div class="estrela">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Bebidas</h3>
+                <p>Temos Coca-cola, Fanta laranja e Cervejas em latas, bebidas para todas as idades... tudo para agradar os nossos clientes.</p>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <span class="preco">R$5.00</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="C:\projeto\images\sucos.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="conteudo">
+                <div class="estrela">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Sucos Naturais</h3>
+                <p>SABORES: Cupuaçu, Graviola, Acerola, Maracujá, Taperebá, Manga, Goiaba.</p>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <span class="preco">R$2.00</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="comentarios" id="comentarios">
+
+    <h3 class="sub-heading"> Sugestão e avaliação dos clientes </h3>
+    <h1 class="heading"> Comentários </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="C:\projeto\images\enzo.png" alt="">
+                    <div class="user-info">
+                        <h3>Enzo Henrique</h3>
+                        <div class="estrela">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Recomendo com toda certeza, ótimos lanches e bebidas, todos preparados no ponto certo. Realmente é de dar água na boca.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="C:\projeto\images\sabrina.png" alt="">
+                    <div class="user-info">
+                        <h3>Sabrina Motta</h3>
+                        <div class="estrela">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>No começo pensei que seria só mais um lanche como outro qualquer, mas após saborear a torta de banana logo mudei de opinião.
+                     Super recomendo para quem deseja mudar a alimentação, além de saudável é muito gostoso.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="C:\projeto\images\lucas.png" alt="">
+                    <div class="user-info">
+                        <h3>Lucas Marinho</h3>
+                        <div class="estrela">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Aqui é a minha parada obrigatória, não consigo resistir a essa delícias,
+                     pois, além de barato é uito gostoso. O meu lanche favorito é a empadinha de camarão.</p>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<section class="pedido" id="pedido">
+
+    <h3 class="sub-heading"> Peça agora </h3>
+    <h1 class="heading"> Entrega grátis e rápida </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>Nome</span>
+                <input type="text" placeholder="informe seu nome">
+            </div>
+            <div class="input">
+                <span>Número</span>
+                <input type="number" placeholder="informe seu número">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Pedido</span>
+                <input type="text" placeholder="informe o nome do pedido">
+            </div>
+            <div class="input">
+                <span>Comida adicional</span>
+                <input type="test" placeholder="comida extra (se houver)">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Quantidade</span>
+                <input type="number" placeholder="informe a quantidade que deseja">
+            </div>
+            <div class="input">
+                <span>Data e hora</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Endereço</span>
+                <textarea name="" placeholder="informe seu endereço" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>Observação</span>
+                <textarea name="" placeholder="sugestão ou alteração no pedido (sem cebola, sem muita goma no tacacá, etc)" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <input type="submit" value="pedir agora" class="btn">
+
+    </form>
+
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>locais</h3>
+            <a href="#">zona-oeste</a>
+            <a href="#">zona-norte</a>
+            <a href="#">zona-leste</a>
+            <a href="#">zona-sul</a>
+        </div>
+
+        <div class="box">
+            <h3>Links rápidos</h3>
+            <a href="#">Início</a>
+            <a href="#">Pratos</a>
+            <a href="#">Sobre</a>
+            <a href="#">Cardápio</a>
+            <a href="#">Comentários</a>
+            <a href="#">Pedido</a>
+        </div>
+
+        <div class="box">
+            <h3>Informações e dúvidas</h3>
+            <a href="#">92 98765-4321</a>
+            <a href="#">92 99173-4652</a>
+            <a href="#">jubileuzinho@gmail.com</a>
+            <a href="#">astrogildafofoqueira@gmail.com</a>
+            <a href="#">zona-norte, zona-oeste - 40028922</a>
+        </div>
+
+        <div class="box">
+            <h3>siga-nos</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <div class="credit"> copyright @ 2022 por <span>mestre cuca edinora</span> </div>
+
+</section>
+
+<div class="loader-container">
+    <img src="C:\projeto\images\loader.gif" alt="">
+</div>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="C:\projeto\js\script.js"></script>
+
+</body>
+</html>
