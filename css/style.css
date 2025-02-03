@@ -47,21 +47,23 @@ section:nth-child(even){
     text-transform: uppercase;
 }
 
-.btn{
+.btn {
     margin-top: 1rem;
     display: inline-block;
     font-size: 1.7rem;
-    color:#fff;
+    color: #fff;
     background: var(--black);
     border-radius: .5rem;
     cursor: pointer;
-    padding:.8rem 3rem;
-}
-
-.btn:hover{
-    background: var(--green);
+    padding: .8rem 3rem;
+    transition: all 0.3s ease-in-out;
     letter-spacing: .1rem;
 }
+
+.btn:hover {
+    background: var(--green);
+}
+
 
 header{
     top:0; left: 0; right:0;
